@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-slate-900 text-slate-100" >
+<div class=" flex content-between w-full bg-slate-500 h-[60px] place-content-center font-bold text-5xl">
+    <h1>Rock paper Scissor</h1>
+   
+</div>
+<div id="choice" class="flex m-10 place-content-center items-center border-solid border-4 rounded-3xl  h-auto border-slate-600 cursor-pointer">
+    <div id="rock" class="choice">
+        <div
+         class="m-10 h-auto w-32 border-slate-500  border-solid border-4 rounded-xl p-3 hover:border-slate-50 hover:shadow-xl hover:shadow-slate-400">
+            <img class="rounded-[50%] " src="rock.jpeg" alt="">
+            <h1 class="place-content-center items-center px-4 pt-2 bold text-2xl">Rock</h1>
+            </div>
+        </div>
+    <div id="paper"   class="choice">
+    <div   class="m-10 h-auto w-32 place-content-center items-center  border-slate-500 border-solid border-4 rounded-xl p-3 hover:border-slate-50 hover:shadow-xl hover:shadow-slate-400" >
+        <img class="rounded-[50%] " src="paper.jpeg" alt="">
+        <h1 class="place-content-center items-center px-4 pt-2 bold text-2xl">paper</h1>
+    </div>
+</div>
+   
+    <div id="scissor" ˳ class="choice">
+    <div class="m-10 h-auto w-32 border-slate-500 border-solid border-4 rounded-xl p-3 hover:border-slate-50 hover:shadow-xl hover:shadow-slate-400"  >
+        <img  class="rounded-[50%] " src="scissor.jpeg" alt="">
+        <h1 class="place-content-center items-center px-4 pt-2 bold text-2xl">Scissor</h1>
+    </div>
+</div>
+</div>
+<div class="flex place-content-center ">
+    <div class="h-auto w-auto place-content-center items-center m-2">
+        <h1  id="playerscore" class="text-2xl m-3" >0</h1>
+        <h1 class="capitalize text-xl ">your <br>score</h1>
+    </div>
+    <div class="h-auto w-auto place-content-center items-center m-2">
+        <h1 id="compscore" class="m-3 text-2xl" > 0 </h1>
+        <h1 class="capitalize text-xl ">computer<br>
+            score </h1>
+    </div>
+</div>
+<div class="h-scren flex place-content-center items-center justify-center  w-full">
+<h1 id="comment" class="flex  w-full h-[60px] place-content-center capitalize font-bold text-5xl">
+</h1>
+</div>
+<script src="srcipt.js"></script>
+</body>
+</html>
